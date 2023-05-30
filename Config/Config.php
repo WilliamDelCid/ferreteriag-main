@@ -1,8 +1,8 @@
 <?php 
 	
 
-	const BASE_URL = "http://localhost/ferreteriag";
-	const BASE_URL2 = "http://localhost/ferreteriag/consultas/";
+	const BASE_URL = "https://william2023.me/ferreteriag";
+	const BASE_URL2 = "https://william2023.me/ferreteriag/consultas/";
 
 	//Zona horaria
 	date_default_timezone_set('America/El_Salvador');
