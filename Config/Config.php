@@ -10,8 +10,8 @@
 
 	const DB_HOST = "localhost" ;
 	const DB_NAME = "db_ferreteria";
-	const DB_USER = "root";
-	const DB_PASSWORD = "";
+	const DB_USER = "newuser";
+	const DB_PASSWORD = "password";
 	const DB_CHARSET = "utf8";
 
 
