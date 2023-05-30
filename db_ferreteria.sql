@@ -387,7 +387,7 @@ CREATE TABLE `usuario`  (
 -- Records of usuario
 -- ----------------------------
 INSERT INTO `usuario` VALUES (1, 'ferreteriagradanenio12@gmail.com', '75b3897ea5239a738b3ba1061e19e052c6181043d248d0f099d5b09a8dee8ba7', 1, '', 1, '2021-08-11 16:22:35', 1);
-INSERT INTO `usuario` VALUES (17, 'dm18019@ues.edu.sv', '75b3897ea5239a738b3ba1061e19e052c6181043d248d0f099d5b09a8dee8ba7', 20, '', 14, '2021-11-02 15:42:21', 1);
+INSERT INTO `usuario` VALUES (17, 'dm18019@ues.edu.sv', 'Root1234.$', 20, '', 14, '2021-11-02 15:42:21', 1);
 
 -- ----------------------------
 -- Table structure for venta
